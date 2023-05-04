@@ -87,11 +87,8 @@ public class Panel extends JPanel implements ActionListener
 		@Override
 		public void keyPressed(KeyEvent e)
 		{
-			if(e.getKeyCode() == KeyEvent.VK_SPACE) 
-			{
+			if(e.getKeyCode() == KeyEvent.VK_SPACE)
 				timerToggle();
-				System.out.println("SPACE");
-			}
 				
 		}
 	}
